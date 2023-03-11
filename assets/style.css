@@ -1,0 +1,106 @@
+.reload {
+    position: absolute; top: 0px;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.newland_icon {
+    position: absolute; left: 100px; bottom: 200px;
+    width: 300px;
+    
+}
+
+.foreword {
+    position: absolute; top: 160px; left: 480px;
+    font-size: 25px;
+    color: white;
+}
+
+.value {
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    position: absolute; top: 10px; right: 0px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.login {
+    font-size: 30px;
+    border: 0px solid rgb(115, 135, 226);
+    background-color: rgb(115, 135, 226);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px
+}
+
+.comment-section {
+    position: absolute; left: 500px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+  }
+  
+  .comment-form {
+    margin-bottom: 40px;
+  }
+  
+  .comment-form label, .comment-form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .comment-form textarea {
+    height: 100px;
+  }
+  
+  .comment-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .comment-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .comment-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+.comment-topic {
+    font-size: 30px;
+}
+
+.comment-description {
+    font-size: 15px;    
+}
+
+.fixing-topic {
+    position: absolute; top: 200px; left: 480px;
+    font-size: 25px;
+    color: white; 
+}
+
+.fixing-description {
+    color: white;
+}

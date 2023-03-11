@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>NewLand評論</title>
+	<link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<body style="background-color: rgb(46, 46, 46)">
+    <h1><a href="http://newland.serveirc.com" class="reload"><i>NewLand編程</i></a></h1>
+    <span class="logo">
+        <img src="../images/圖片1.png" class="newland_icon"/>
+    </span>
+    <div class="comment-section">
+        <h2 class="comment-topic"><b>留言評價分享</b></h2>
+        <div class="comment-form">
+        <h3 class="comment-description">您可以寫一些關於我們的服務態度之類的</h3>
+        <form>
+            <label for="name">Discord ID：</label>
+            <input type="text" id="name" name="name" required>
+            <label for="comment">評論：</label>
+            <textarea id="comment" name="comment" required></textarea>
+            <button type="submit">發表</button>
+        </form>
+        </div>
+        <div class="comment-list">
+        <h3>評價列表</h3>
+        <ul id="comments">
+        </ul>
+        </div>
+    </div>
+    <script src="../assets/comment.js"></script>
+</body>
+</html>
